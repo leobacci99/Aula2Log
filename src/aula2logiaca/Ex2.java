@@ -15,8 +15,9 @@ public class Ex2 {
         System.out.print("Senha: ");
         senha = leitor.nextLine();
         
+        id = id.trim();
         
-      
+              
         boolean autorizado = (id == "Guilherme"  && senha == "0f5") || 
                 (id == "Jair" && senha == "0706" ) ;
           /*
