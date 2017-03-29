@@ -21,15 +21,14 @@ public class Ex3 {
             System.out.println("Aluno passou com media: " + media);
         } else{
              System.out.println("Necessita a terceira prova");
-            double n3 = leitor.nextDouble();
+             System.out.print("Nota P3: ");   
+             double n3 = leitor.nextDouble();
             
             if (n1 < n2) {
                 n1 = n3;
             }else{
                 n2 = n3;
-                
-            }
-        }
+            }    
             media = (n1 + n2) / 2;
         if (media >= 6) {
             media = 6; 
@@ -37,6 +36,8 @@ public class Ex3 {
         }else {
               System.out.println("Aluno reprovado");
         }
+        }
+       
     }
     
 }
